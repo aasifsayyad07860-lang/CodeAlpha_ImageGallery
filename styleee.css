@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
